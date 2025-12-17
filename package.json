@@ -1,0 +1,23 @@
+{
+  "name": "cappuccibot",
+  "version": "1.0.0",
+  "description": "Anonymous coffee pairing bot for Slack",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node src/server.js"
+  },
+  "keywords": [
+    "slack",
+    "bot",
+    "coffee",
+    "networking",
+    "pairing"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@slack/bolt": "^3.16.0",
+    "dotenv": "^16.0.3"
+  }
+}
